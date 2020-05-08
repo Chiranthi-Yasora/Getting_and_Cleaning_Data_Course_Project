@@ -130,6 +130,6 @@ write.table(humanActivityMeans, "tidy_data.txt", row.names = FALSE,
             quote = FALSE)
 
 
-install.packages("codebook")
-library(codebook)
-new_codebook_rmd()
+save.image()
+
+
